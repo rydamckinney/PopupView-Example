@@ -46,12 +46,11 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		224047312A21128200835053 /* PopupView */ = {isa = PBXFileReference; lastKnownFileType = wrapper; name = PopupView; path = "../../sym-dev/PopupView"; sourceTree = "<group>"; };
+		227AE38E2A2926F1003E1CBF /* PopupView */ = {isa = PBXFileReference; lastKnownFileType = wrapper; name = PopupView; path = "../../sym-dev/PopupView"; sourceTree = "<group>"; };
 		6D3C1D0829AFA5FE0065F1F1 /* CentrePopup_UnlockNewFeatures.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CentrePopup_UnlockNewFeatures.swift; sourceTree = "<group>"; };
 		6D3C1D0A29AFA8360065F1F1 /* CentrePopup_MoreFeatures.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CentrePopup_MoreFeatures.swift; sourceTree = "<group>"; };
 		6D3C1D0D29AFA9EC0065F1F1 /* TopPopup_Alert.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TopPopup_Alert.swift; sourceTree = "<group>"; };
 		6D3C1D1129AFAA140065F1F1 /* TopPopup_Notification.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TopPopup_Notification.swift; sourceTree = "<group>"; };
-		6D3FD2732A1ADAA8005EF486 /* PopupView */ = {isa = PBXFileReference; lastKnownFileType = wrapper; name = PopupView; path = ../PopupView; sourceTree = "<group>"; };
 		6D4C04B729AECCEA00165FC2 /* Font++.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Font++.swift"; sourceTree = "<group>"; };
 		6D4C04B929AECCEF00165FC2 /* Color++.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Color++.swift"; sourceTree = "<group>"; };
 		6D4C04BB29AED11E00165FC2 /* UIScreen++.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIScreen++.swift"; sourceTree = "<group>"; };
@@ -154,9 +153,8 @@
 		6DC0833F29ACA33E0031481C = {
 			isa = PBXGroup;
 			children = (
-				224047312A21128200835053 /* PopupView */,
+				227AE38E2A2926F1003E1CBF /* PopupView */,
 				6DC0834A29ACA33E0031481C /* PopupView-Example */,
-				6D3FD2732A1ADAA8005EF486 /* PopupView */,
 				6DC0834929ACA33E0031481C /* Products */,
 			);
 			sourceTree = "<group>";
