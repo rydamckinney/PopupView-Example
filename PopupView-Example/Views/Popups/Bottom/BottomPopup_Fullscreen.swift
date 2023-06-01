@@ -55,7 +55,7 @@ private extension BottomPopup_Fullscreen {
     }}
 }
 
-
+#if os(iOS)
 // MARK: - WebView implementation
 fileprivate struct WebView: UIViewRepresentable {
     func makeUIView(context: Context) -> WKWebView { .init() }
@@ -67,3 +67,19 @@ fileprivate struct WebView: UIViewRepresentable {
 private extension WebView {
     var url: URL { .init(string: "https://github.com/orgs/Mijick/repositories")! }
 }
+
+#elseif os(macOS)
+// MARK: - WebView implementation
+fileprivate struct WebView: NSViewRepresentable {
+    func makeNSView(context: Context) -> WKWebView { .init() }
+    
+    func updateNSView(_ webView: WKWebView, context: Context) {
+        let request = URLRequest(url: url)
+        webView.load(request)
+    }
+}
+
+private extension WebView {
+    var url: URL { .init(string: "https://github.com/orgs/Mijick/repositories")! }
+}
+#endif
