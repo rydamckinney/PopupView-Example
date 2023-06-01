@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		224047302A2111D100835053 /* PopupView in Frameworks */ = {isa = PBXBuildFile; productRef = 2240472F2A2111D100835053 /* PopupView */; };
 		6D3C1D0929AFA5FE0065F1F1 /* CentrePopup_UnlockNewFeatures.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6D3C1D0829AFA5FE0065F1F1 /* CentrePopup_UnlockNewFeatures.swift */; };
 		6D3C1D0B29AFA8360065F1F1 /* CentrePopup_MoreFeatures.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6D3C1D0A29AFA8360065F1F1 /* CentrePopup_MoreFeatures.swift */; };
 		6D3C1D0E29AFA9EC0065F1F1 /* TopPopup_Alert.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6D3C1D0D29AFA9EC0065F1F1 /* TopPopup_Alert.swift */; };
@@ -31,7 +32,6 @@
 		6DC0834C29ACA33E0031481C /* PopupView_Main.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6DC0834B29ACA33E0031481C /* PopupView_Main.swift */; };
 		6DC0834E29ACA33E0031481C /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6DC0834D29ACA33E0031481C /* ContentView.swift */; };
 		6DC0835029ACA3400031481C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6DC0834F29ACA3400031481C /* Assets.xcassets */; };
-		6DC0835B29ACA35F0031481C /* PopupView in Frameworks */ = {isa = PBXBuildFile; productRef = 6DC0835A29ACA35F0031481C /* PopupView */; };
 		6DC8D34929AEC5D9005FF18C /* BottomPopup_FileAdded.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6DC8D34829AEC5D9005FF18C /* BottomPopup_FileAdded.swift */; };
 		6DC8D35D29AEC77E005FF18C /* Inter-Bold.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 6DC8D35429AEC77E005FF18C /* Inter-Bold.ttf */; };
 		6DC8D35E29AEC77E005FF18C /* Inter-Regular.ttf in Resources */ = {isa = PBXBuildFile; fileRef = 6DC8D35529AEC77E005FF18C /* Inter-Regular.ttf */; };
@@ -46,6 +46,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		224047312A21128200835053 /* PopupView */ = {isa = PBXFileReference; lastKnownFileType = wrapper; name = PopupView; path = "../../sym-dev/PopupView"; sourceTree = "<group>"; };
 		6D3C1D0829AFA5FE0065F1F1 /* CentrePopup_UnlockNewFeatures.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CentrePopup_UnlockNewFeatures.swift; sourceTree = "<group>"; };
 		6D3C1D0A29AFA8360065F1F1 /* CentrePopup_MoreFeatures.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CentrePopup_MoreFeatures.swift; sourceTree = "<group>"; };
 		6D3C1D0D29AFA9EC0065F1F1 /* TopPopup_Alert.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TopPopup_Alert.swift; sourceTree = "<group>"; };
@@ -91,7 +92,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				6DC0835B29ACA35F0031481C /* PopupView in Frameworks */,
+				224047302A2111D100835053 /* PopupView in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -153,6 +154,7 @@
 		6DC0833F29ACA33E0031481C = {
 			isa = PBXGroup;
 			children = (
+				224047312A21128200835053 /* PopupView */,
 				6DC0834A29ACA33E0031481C /* PopupView-Example */,
 				6D3FD2732A1ADAA8005EF486 /* PopupView */,
 				6DC0834929ACA33E0031481C /* Products */,
@@ -279,7 +281,7 @@
 			);
 			name = "PopupView-Example";
 			packageProductDependencies = (
-				6DC0835A29ACA35F0031481C /* PopupView */,
+				2240472F2A2111D100835053 /* PopupView */,
 			);
 			productName = "PopupView-Example";
 			productReference = 6DC0834829ACA33E0031481C /* PopupView-Example.app */;
@@ -310,7 +312,7 @@
 			);
 			mainGroup = 6DC0833F29ACA33E0031481C;
 			packageReferences = (
-				6DC0835929ACA35F0031481C /* XCRemoteSwiftPackageReference "PopupView" */,
+				2240472E2A2111D100835053 /* XCRemoteSwiftPackageReference "PopupView" */,
 			);
 			productRefGroup = 6DC0834929ACA33E0031481C /* Products */;
 			projectDirPath = "";
@@ -497,7 +499,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_TEAM = 78L5993673;
+				DEVELOPMENT_TEAM = 3U588QPJ72;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = "PopupView-Example/Assets/Info.plist";
@@ -511,9 +513,9 @@
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = "com.mijick.PopupView-Example";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.symbiose.PopupView-Example";
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
 				SUPPORTS_MACCATALYST = NO;
 				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
 				SWIFT_EMIT_LOC_STRINGS = YES;
@@ -528,7 +530,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
-				DEVELOPMENT_TEAM = 78L5993673;
+				DEVELOPMENT_TEAM = 3U588QPJ72;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_FILE = "PopupView-Example/Assets/Info.plist";
@@ -542,9 +544,9 @@
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = "com.mijick.PopupView-Example";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.symbiose.PopupView-Example";
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator macosx";
 				SUPPORTS_MACCATALYST = NO;
 				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
 				SWIFT_EMIT_LOC_STRINGS = YES;
@@ -577,20 +579,20 @@
 /* End XCConfigurationList section */
 
 /* Begin XCRemoteSwiftPackageReference section */
-		6DC0835929ACA35F0031481C /* XCRemoteSwiftPackageReference "PopupView" */ = {
+		2240472E2A2111D100835053 /* XCRemoteSwiftPackageReference "PopupView" */ = {
 			isa = XCRemoteSwiftPackageReference;
-			repositoryURL = "https://github.com/Mijick/PopupView";
+			repositoryURL = "https://github.com/symbiose-technologies/PopupView";
 			requirement = {
-				branch = main;
+				branch = symbiose;
 				kind = branch;
 			};
 		};
 /* End XCRemoteSwiftPackageReference section */
 
 /* Begin XCSwiftPackageProductDependency section */
-		6DC0835A29ACA35F0031481C /* PopupView */ = {
+		2240472F2A2111D100835053 /* PopupView */ = {
 			isa = XCSwiftPackageProductDependency;
-			package = 6DC0835929ACA35F0031481C /* XCRemoteSwiftPackageReference "PopupView" */;
+			package = 2240472E2A2111D100835053 /* XCRemoteSwiftPackageReference "PopupView" */;
 			productName = PopupView;
 		};
 /* End XCSwiftPackageProductDependency section */
